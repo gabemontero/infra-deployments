@@ -1776,7 +1776,7 @@ spec:
                 type: Resource
             minReplicas: 2
       webhookConfigurationOptions:
-        tekton-pipelines-webhook-tune-down:
+        tekton-pipelines-webhook:
           failurePolicy: Ignore
           sideEffects: NoneOnDryRun
           timeoutSeconds: 120
